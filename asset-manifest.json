@@ -1,22 +1,39 @@
 {
   "files": {
     "main.css": "/GoLocal-HenHacks/static/css/main.7f2536c3.css",
-    "main.js": "/GoLocal-HenHacks/static/js/main.d94e5bd2.js",
+    "main.js": "/GoLocal-HenHacks/static/js/main.e8e7d149.js",
     "static/js/787.4ef7427d.chunk.js": "/GoLocal-HenHacks/static/js/787.4ef7427d.chunk.js",
+    "static/media/GinghamGrace.png": "/GoLocal-HenHacks/static/media/GinghamGrace.4d24deffe37a96f11877.png",
+    "static/media/TheMercury.png": "/GoLocal-HenHacks/static/media/TheMercury.354b68251eb73de4f8ed.png",
+    "static/media/CoralCove.webp": "/GoLocal-HenHacks/static/media/CoralCove.e68aa3a9578e7e58e42d.webp",
+    "static/media/BrewHaha.png": "/GoLocal-HenHacks/static/media/BrewHaha.f804b34587995817018c.png",
+    "static/media/Heirloom.jpg": "/GoLocal-HenHacks/static/media/Heirloom.e9f90f7e605440d0104a.jpg",
     "static/media/StudioOnMarket.png": "/GoLocal-HenHacks/static/media/StudioOnMarket.6a66e90cc4f6b560eb0a.png",
+    "static/media/Greenbank.png": "/GoLocal-HenHacks/static/media/Greenbank.d7710905a3412b5054db.png",
     "static/media/GreenBoxKitchen.webp": "/GoLocal-HenHacks/static/media/GreenBoxKitchen.eb61fd7e2bc1255aa11b.webp",
+    "static/media/SHcreativeStudio.png": "/GoLocal-HenHacks/static/media/SHcreativeStudio.a4511d72e394fa1e7f7e.png",
+    "static/media/KingCreative.png": "/GoLocal-HenHacks/static/media/KingCreative.1a4a9d8374d6aeb68bc0.png",
+    "static/media/HeavenAndHealth.png": "/GoLocal-HenHacks/static/media/HeavenAndHealth.403a24e912b61a7d6799.png",
+    "static/media/WaltsChicken.png": "/GoLocal-HenHacks/static/media/WaltsChicken.62ae85bba32d8af1f8de.png",
+    "static/media/BooksAndBagels.webp": "/GoLocal-HenHacks/static/media/BooksAndBagels.f1eedeacde5f9fc05df3.webp",
     "static/media/logotransparent.png": "/GoLocal-HenHacks/static/media/logotransparent.db34bce7d90924ab23ec.png",
     "static/media/Evangelina.jpg": "/GoLocal-HenHacks/static/media/Evangelina.815cdaf038bcf83d9f4e.jpg",
+    "static/media/PopIn.jpg": "/GoLocal-HenHacks/static/media/PopIn.fee3bc8ca7e261949a39.jpg",
     "static/media/SqueezeBox.webp": "/GoLocal-HenHacks/static/media/SqueezeBox.9e31cef90ff1b2528f5d.webp",
     "static/media/TerraCafeGrillPic.jpg": "/GoLocal-HenHacks/static/media/TerraCafeGrillPic.b8bffacc10eb8be3a04b.jpg",
+    "static/media/PureYoga.jpg": "/GoLocal-HenHacks/static/media/PureYoga.a56abffa0824de13f6ed.jpg",
+    "static/media/MedSpa.jpg": "/GoLocal-HenHacks/static/media/MedSpa.20139dec9b90a14cd49d.jpg",
+    "static/media/LCPhotography.jpg": "/GoLocal-HenHacks/static/media/LCPhotography.c03b9c9aa5e9492e2799.jpg",
+    "static/media/IgniteFitness.jpg": "/GoLocal-HenHacks/static/media/IgniteFitness.4405aef07e4e79dfd8a3.jpg",
     "static/media/ArtzScape.webp": "/GoLocal-HenHacks/static/media/ArtzScape.210b903425893d79cdcc.webp",
+    "static/media/Bloom.avif": "/GoLocal-HenHacks/static/media/Bloom.3c1a2a86fd91bc65db71.avif",
     "index.html": "/GoLocal-HenHacks/index.html",
     "main.7f2536c3.css.map": "/GoLocal-HenHacks/static/css/main.7f2536c3.css.map",
-    "main.d94e5bd2.js.map": "/GoLocal-HenHacks/static/js/main.d94e5bd2.js.map",
+    "main.e8e7d149.js.map": "/GoLocal-HenHacks/static/js/main.e8e7d149.js.map",
     "787.4ef7427d.chunk.js.map": "/GoLocal-HenHacks/static/js/787.4ef7427d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7f2536c3.css",
-    "static/js/main.d94e5bd2.js"
+    "static/js/main.e8e7d149.js"
   ]
 }
