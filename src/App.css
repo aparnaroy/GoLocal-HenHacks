@@ -39,13 +39,13 @@
 }
 
 .navigation {
-    height: 100px;
+    height: 90px;
     width: 100%;
     display: flex;
     align-items: center;
     position: relative;
     padding: 0.5rem 0rem;
-    background-color: #fff;
+    background-color: #80d9d9;
     color: black;
-    box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+    box-shadow: 0 2px 4px 2px rgba(9, 9, 9, 0.23);
 }
