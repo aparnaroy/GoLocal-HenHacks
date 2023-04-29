@@ -8,7 +8,7 @@ import {
     StudioOnMarket,
     SqueezeBox
 } from "../Assets/instances";
-import { Button, Card, Col, Form, Row } from "react-bootstrap";
+import { Card, Col, Row } from "react-bootstrap";
 
 export function useSessionStorage<T>(key: string, initialValue: T | (() => T)) {
     const [value, setValue] = useState<T>(() => {
@@ -38,6 +38,7 @@ export function DisplayBusinesses(): JSX.Element {
         SqueezeBox,
         StudioOnMarket
     ]);
+    setItems;
     return (
         <div className="flex-container">
             <Row sm={1} md={3}>
