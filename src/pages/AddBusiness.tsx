@@ -1,10 +1,12 @@
 import React from "react";
-import { Container } from "react-bootstrap";
 
 export function AddBusiness() {
     return (
-        <Container className="App">
-            <h1>Are you a Local Business Owner? Add Your Business Here!</h1>
-        </Container>
+        <div className="App">
+            <br></br>
+            <div className="App-header">Add Your Business</div>
+            <br></br>
+            <h3>Are you a Local Business Owner? Add Your Business Here!</h3>
+        </div>
     );
 }
