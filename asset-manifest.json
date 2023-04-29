@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/GoLocal-HenHacks/static/css/main.13cf2658.css",
-    "main.js": "/GoLocal-HenHacks/static/js/main.6e7dc728.js",
+    "main.css": "/GoLocal-HenHacks/static/css/main.d59a5b8e.css",
+    "main.js": "/GoLocal-HenHacks/static/js/main.7a8f89b7.js",
     "static/js/787.4ef7427d.chunk.js": "/GoLocal-HenHacks/static/js/787.4ef7427d.chunk.js",
-    "static/media/GoLocal.png": "/GoLocal-HenHacks/static/media/GoLocal.50fccb53c2a92f60161e.png",
+    "static/media/logotransparent.png": "/GoLocal-HenHacks/static/media/logotransparent.db34bce7d90924ab23ec.png",
     "index.html": "/GoLocal-HenHacks/index.html",
-    "main.13cf2658.css.map": "/GoLocal-HenHacks/static/css/main.13cf2658.css.map",
-    "main.6e7dc728.js.map": "/GoLocal-HenHacks/static/js/main.6e7dc728.js.map",
+    "main.d59a5b8e.css.map": "/GoLocal-HenHacks/static/css/main.d59a5b8e.css.map",
+    "main.7a8f89b7.js.map": "/GoLocal-HenHacks/static/js/main.7a8f89b7.js.map",
     "787.4ef7427d.chunk.js.map": "/GoLocal-HenHacks/static/js/787.4ef7427d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.13cf2658.css",
-    "static/js/main.6e7dc728.js"
+    "static/css/main.d59a5b8e.css",
+    "static/js/main.7a8f89b7.js"
   ]
 }
