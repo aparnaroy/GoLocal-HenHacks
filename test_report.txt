@@ -474,7 +474,7 @@ Browserslist: caniuse-lite is outdated. Please run:
       at HTMLUnknownElement.callCallback (node_modules/react-dom/cjs/react-dom.development.js:3945:14)
 
 FAIL src/App.test.tsx
-  ✕ renders the course name somewhere (250 ms)
+  ✕ renders the course name somewhere (277 ms)
 
   ● renders the course name somewhere
 
@@ -528,19 +528,22 @@ FAIL src/App.test.tsx
 ------------------|---------|----------|---------|---------|-------------------
 File              | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 ------------------|---------|----------|---------|---------|-------------------
-All files         |   33.33 |      100 |   33.33 |   33.33 |                   
+All files         |   29.62 |        0 |   16.66 |   30.76 |                   
  src              |     100 |      100 |     100 |     100 |                   
   App.tsx         |     100 |      100 |     100 |     100 |                   
- src/components   |     100 |      100 |     100 |     100 |                   
-  NavBar.tsx      |     100 |      100 |     100 |     100 |                   
+ src/Assets       |     100 |      100 |     100 |     100 |                   
+  instances.ts    |     100 |      100 |     100 |     100 |                   
+ src/components   |    6.25 |        0 |   14.28 |    6.66 |                   
+  Display.tsx     |       0 |        0 |       0 |       0 | 14-46             
+  NavBar.tsx      |      50 |      100 |      50 |      50 | 61                
  src/pages        |       0 |      100 |       0 |       0 |                   
-  About.tsx       |       0 |      100 |       0 |       0 | 5                 
-  AddBusiness.tsx |       0 |      100 |       0 |       0 | 5                 
+  About.tsx       |       0 |      100 |       0 |       0 | 4                 
+  AddBusiness.tsx |       0 |      100 |       0 |       0 | 4                 
   Browse.tsx      |       0 |      100 |       0 |       0 | 4                 
   Home.tsx        |       0 |      100 |       0 |       0 | 4                 
 ------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.4 s
+Time:        2.421 s
 Ran all test suites.

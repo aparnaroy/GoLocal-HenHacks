@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/GoLocal-HenHacks/static/css/main.d59a5b8e.css",
-    "main.js": "/GoLocal-HenHacks/static/js/main.7a8f89b7.js",
+    "main.css": "/GoLocal-HenHacks/static/css/main.4008221d.css",
+    "main.js": "/GoLocal-HenHacks/static/js/main.f42873c2.js",
     "static/js/787.4ef7427d.chunk.js": "/GoLocal-HenHacks/static/js/787.4ef7427d.chunk.js",
+    "static/media/StudioOnMarket.png": "/GoLocal-HenHacks/static/media/StudioOnMarket.6a66e90cc4f6b560eb0a.png",
+    "static/media/GreenBoxKitchen.webp": "/GoLocal-HenHacks/static/media/GreenBoxKitchen.eb61fd7e2bc1255aa11b.webp",
     "static/media/logotransparent.png": "/GoLocal-HenHacks/static/media/logotransparent.db34bce7d90924ab23ec.png",
+    "static/media/Evangelina.jpg": "/GoLocal-HenHacks/static/media/Evangelina.815cdaf038bcf83d9f4e.jpg",
+    "static/media/SqueezeBox.webp": "/GoLocal-HenHacks/static/media/SqueezeBox.9e31cef90ff1b2528f5d.webp",
+    "static/media/TerraCafeGrillPic.jpg": "/GoLocal-HenHacks/static/media/TerraCafeGrillPic.b8bffacc10eb8be3a04b.jpg",
+    "static/media/ArtzScape.webp": "/GoLocal-HenHacks/static/media/ArtzScape.210b903425893d79cdcc.webp",
     "index.html": "/GoLocal-HenHacks/index.html",
-    "main.d59a5b8e.css.map": "/GoLocal-HenHacks/static/css/main.d59a5b8e.css.map",
-    "main.7a8f89b7.js.map": "/GoLocal-HenHacks/static/js/main.7a8f89b7.js.map",
+    "main.4008221d.css.map": "/GoLocal-HenHacks/static/css/main.4008221d.css.map",
+    "main.f42873c2.js.map": "/GoLocal-HenHacks/static/js/main.f42873c2.js.map",
     "787.4ef7427d.chunk.js.map": "/GoLocal-HenHacks/static/js/787.4ef7427d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d59a5b8e.css",
-    "static/js/main.7a8f89b7.js"
+    "static/css/main.4008221d.css",
+    "static/js/main.f42873c2.js"
   ]
 }
