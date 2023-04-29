@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Nav, Navbar as NavbarBs } from "react-bootstrap";
+import { Container, Nav, Navbar, Navbar as NavbarBs } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import GoLocal from "../Assets/logotransparent.png";
 
@@ -7,8 +7,10 @@ export function NavBar() {
     return (
         <NavbarBs sticky="top" className="navigation">
             <Container>
+                <Navbar.Brand href="#/">
+                    <img src={GoLocal} alt="GoLocal Logo" height="130px" />
+                </Navbar.Brand>
                 <Nav className="me-auto">
-                    <img src={GoLocal} alt="GoLocal Logo" height="70px" />
                     <Nav.Link
                         to="/"
                         as={NavLink}
