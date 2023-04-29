@@ -1,5 +1,9 @@
 import React from "react";
-
+import { DisplayBusinesses } from "../components/Display";
 export function Browse() {
-    return <h1>Browse Local Businesses</h1>;
+    return (
+        <div>
+            <DisplayBusinesses></DisplayBusinesses>
+        </div>
+    );
 }

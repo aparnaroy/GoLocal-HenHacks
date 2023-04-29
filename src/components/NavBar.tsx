@@ -54,3 +54,7 @@ export function NavBar() {
         </NavbarBs>
     );
 }
+
+export function DisplayBusinesses(): JSX.Element {
+    return <div></div>;
+}
