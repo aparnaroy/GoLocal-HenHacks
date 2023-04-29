@@ -6,7 +6,24 @@ import {
     Evangelinas,
     ArtzScape,
     StudioOnMarket,
-    SqueezeBox
+    SqueezeBox,
+    PureYoga,
+    MedSpa,
+    HeavenAndHealth,
+    CoralCove,
+    Bloom,
+    GinghamGrace,
+    KingCreative,
+    LCPhotography,
+    SHCreativeStudio,
+    PopInPops,
+    WaltsChicken,
+    BooksAndBagels,
+    BrewHaha,
+    IgniteFitness,
+    Heirloom,
+    GreenbankAndPhilips,
+    MercuryCafe
 } from "../Assets/instances";
 import { Card, Col, Nav, Row } from "react-bootstrap";
 
@@ -36,7 +53,24 @@ export function DisplayBusinesses(): JSX.Element {
         Evangelinas,
         ArtzScape,
         SqueezeBox,
-        StudioOnMarket
+        StudioOnMarket,
+        PureYoga,
+        MedSpa,
+        HeavenAndHealth,
+        CoralCove,
+        Bloom,
+        GinghamGrace,
+        KingCreative,
+        LCPhotography,
+        SHCreativeStudio,
+        PopInPops,
+        WaltsChicken,
+        BooksAndBagels,
+        BrewHaha,
+        IgniteFitness,
+        Heirloom,
+        GreenbankAndPhilips,
+        MercuryCafe
     ]);
     setItems;
     return (
@@ -50,6 +84,8 @@ export function DisplayBusinesses(): JSX.Element {
                                     variant="top"
                                     src={item.image}
                                     style={{ objectFit: "cover" }}
+                                    height="200px"
+                                    width="100px"
                                 ></Card.Img>
                                 <Card.Body>
                                     <Card.Title>
