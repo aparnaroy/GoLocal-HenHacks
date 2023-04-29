@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/GoLocal-HenHacks/static/css/main.4008221d.css",
-    "main.js": "/GoLocal-HenHacks/static/js/main.f42873c2.js",
+    "main.css": "/GoLocal-HenHacks/static/css/main.7f2536c3.css",
+    "main.js": "/GoLocal-HenHacks/static/js/main.d94e5bd2.js",
     "static/js/787.4ef7427d.chunk.js": "/GoLocal-HenHacks/static/js/787.4ef7427d.chunk.js",
     "static/media/StudioOnMarket.png": "/GoLocal-HenHacks/static/media/StudioOnMarket.6a66e90cc4f6b560eb0a.png",
     "static/media/GreenBoxKitchen.webp": "/GoLocal-HenHacks/static/media/GreenBoxKitchen.eb61fd7e2bc1255aa11b.webp",
@@ -11,12 +11,12 @@
     "static/media/TerraCafeGrillPic.jpg": "/GoLocal-HenHacks/static/media/TerraCafeGrillPic.b8bffacc10eb8be3a04b.jpg",
     "static/media/ArtzScape.webp": "/GoLocal-HenHacks/static/media/ArtzScape.210b903425893d79cdcc.webp",
     "index.html": "/GoLocal-HenHacks/index.html",
-    "main.4008221d.css.map": "/GoLocal-HenHacks/static/css/main.4008221d.css.map",
-    "main.f42873c2.js.map": "/GoLocal-HenHacks/static/js/main.f42873c2.js.map",
+    "main.7f2536c3.css.map": "/GoLocal-HenHacks/static/css/main.7f2536c3.css.map",
+    "main.d94e5bd2.js.map": "/GoLocal-HenHacks/static/js/main.d94e5bd2.js.map",
     "787.4ef7427d.chunk.js.map": "/GoLocal-HenHacks/static/js/787.4ef7427d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4008221d.css",
-    "static/js/main.f42873c2.js"
+    "static/css/main.7f2536c3.css",
+    "static/js/main.d94e5bd2.js"
   ]
 }
