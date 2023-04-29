@@ -6,9 +6,26 @@ import {
     Evangelinas,
     ArtzScape,
     StudioOnMarket,
-    SqueezeBox
+    SqueezeBox,
+    PureYoga,
+    MedSpa,
+    HeavenAndHealth,
+    CoralCove,
+    Bloom,
+    GinghamGrace,
+    KingCreative,
+    LCPhotography,
+    SHCreativeStudio,
+    PopInPops,
+    WaltsChicken,
+    BooksAndBagels,
+    BrewHaha,
+    IgniteFitness,
+    Heirloom,
+    GreenbankAndPhilips,
+    MercuryCafe
 } from "../Assets/instances";
-import { Card, Col, Row } from "react-bootstrap";
+import { Card, Col, Nav, Row } from "react-bootstrap";
 
 export function useSessionStorage<T>(key: string, initialValue: T | (() => T)) {
     const [value, setValue] = useState<T>(() => {
@@ -36,7 +53,24 @@ export function DisplayBusinesses(): JSX.Element {
         Evangelinas,
         ArtzScape,
         SqueezeBox,
-        StudioOnMarket
+        StudioOnMarket,
+        PureYoga,
+        MedSpa,
+        HeavenAndHealth,
+        CoralCove,
+        Bloom,
+        GinghamGrace,
+        KingCreative,
+        LCPhotography,
+        SHCreativeStudio,
+        PopInPops,
+        WaltsChicken,
+        BooksAndBagels,
+        BrewHaha,
+        IgniteFitness,
+        Heirloom,
+        GreenbankAndPhilips,
+        MercuryCafe
     ]);
     setItems;
     return (
@@ -50,10 +84,16 @@ export function DisplayBusinesses(): JSX.Element {
                                     variant="top"
                                     src={item.image}
                                     style={{ objectFit: "cover" }}
+                                    height="200px"
+                                    width="100px"
                                 ></Card.Img>
                                 <Card.Body>
                                     <Card.Title>
-                                        <span>{item.name}</span>
+                                        <span>
+                                            <Nav.Link href="#/discussion">
+                                                {item.name}
+                                            </Nav.Link>
+                                        </span>
                                     </Card.Title>
                                     <span>{item.description}</span>
                                 </Card.Body>

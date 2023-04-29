@@ -1,10 +1,13 @@
 import React from "react";
+import GoLocal from "../Assets/logotransparent.png";
 
 export function Home() {
     return (
         <div className="App">
             <br></br>
-            <div className="App-header">Home</div>
+            <div className="App-header2">
+                <img src={GoLocal} alt="GoLocal Logo" height="220px" />
+            </div>
             <br></br>
             <img
                 src="https://www.nist.gov/sites/default/files/images/2020/05/07/shutterstock_254975995.jpg"
