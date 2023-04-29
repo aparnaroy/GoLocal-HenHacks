@@ -8,7 +8,7 @@ import {
     StudioOnMarket,
     SqueezeBox
 } from "../Assets/instances";
-import { Card, Col, Row } from "react-bootstrap";
+import { Card, Col, Nav, Row } from "react-bootstrap";
 
 export function useSessionStorage<T>(key: string, initialValue: T | (() => T)) {
     const [value, setValue] = useState<T>(() => {
@@ -53,7 +53,11 @@ export function DisplayBusinesses(): JSX.Element {
                                 ></Card.Img>
                                 <Card.Body>
                                     <Card.Title>
-                                        <span>{item.name}</span>
+                                        <span>
+                                            <Nav.Link href="#/discussion">
+                                                {item.name}
+                                            </Nav.Link>
+                                        </span>
                                     </Card.Title>
                                     <span>{item.description}</span>
                                 </Card.Body>

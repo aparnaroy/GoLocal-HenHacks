@@ -6,7 +6,6 @@ export function Browse() {
             <br></br>
             <div className="App-header">Browse Local Businesses</div>
             <br></br>
-            <h4>Hi</h4>
             <DisplayBusinesses></DisplayBusinesses>
         </div>
     );
