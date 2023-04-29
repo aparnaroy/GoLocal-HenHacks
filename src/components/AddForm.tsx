@@ -11,15 +11,22 @@ const initialValues = {
 
 export default function FormAdd(): JSX.Element {
     const [values, setValues] = useState(initialValues);
+    const [selectedCategory, setCategory] = useState("");
 
-    const handleInputChange = (e: {
+    const handleInputChange = (event: {
         target: { name: string; value: string };
     }) => {
-        const { name, value } = e.target;
+        const { name, value } = event.target;
         setValues({
             ...values,
             [name]: value
         });
+    };
+
+    const handleOptionChange = (event: {
+        target: { value: React.SetStateAction<string> };
+    }) => {
+        setCategory(event.target.value);
     };
 
     return (
@@ -47,11 +54,13 @@ export default function FormAdd(): JSX.Element {
             <div className="form">
                 <label>
                     Category:
-                    <input
-                        value={values.category}
-                        onChange={handleInputChange}
-                        name="category"
-                    />
+                    <select
+                        id="cat-dropdown"
+                        value={selectedCategory}
+                        onChange={handleOptionChange}
+                    >
+                        <option>Test</option>
+                    </select>
                 </label>
             </div>
             <div className="form">
