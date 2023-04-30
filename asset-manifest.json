@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/GoLocal-HenHacks/static/css/main.7f2536c3.css",
-    "main.js": "/GoLocal-HenHacks/static/js/main.9578f35c.js",
+    "main.js": "/GoLocal-HenHacks/static/js/main.8290dc81.js",
     "static/js/787.4ef7427d.chunk.js": "/GoLocal-HenHacks/static/js/787.4ef7427d.chunk.js",
     "static/media/GinghamGrace.png": "/GoLocal-HenHacks/static/media/GinghamGrace.4d24deffe37a96f11877.png",
     "static/media/TheMercury.png": "/GoLocal-HenHacks/static/media/TheMercury.354b68251eb73de4f8ed.png",
@@ -29,11 +29,11 @@
     "static/media/Bloom.avif": "/GoLocal-HenHacks/static/media/Bloom.3c1a2a86fd91bc65db71.avif",
     "index.html": "/GoLocal-HenHacks/index.html",
     "main.7f2536c3.css.map": "/GoLocal-HenHacks/static/css/main.7f2536c3.css.map",
-    "main.9578f35c.js.map": "/GoLocal-HenHacks/static/js/main.9578f35c.js.map",
+    "main.8290dc81.js.map": "/GoLocal-HenHacks/static/js/main.8290dc81.js.map",
     "787.4ef7427d.chunk.js.map": "/GoLocal-HenHacks/static/js/787.4ef7427d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7f2536c3.css",
-    "static/js/main.9578f35c.js"
+    "static/js/main.8290dc81.js"
   ]
 }
