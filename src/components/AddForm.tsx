@@ -23,7 +23,6 @@ const data = [
 
 export default function FormAdd(): JSX.Element {
     const [values, setValues] = useState(initialValues);
-    //const [selectedCategory, setCategory] = useState([]);
 
     const handleInputChange = (event: {
         target: { name: string; value: string };
@@ -92,7 +91,7 @@ export default function FormAdd(): JSX.Element {
                 <label>
                     Image URL:
                     <input
-                        value={values.website}
+                        value={values.image}
                         onChange={handleInputChange}
                         name="image"
                     />
