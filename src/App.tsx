@@ -18,8 +18,8 @@ function App(): JSX.Element {
                     <Route path="/" element={<Home />} />
                     <Route path="/browse" element={<Browse />} />
                     <Route path="/addbusiness" element={<AddBusiness />} />
-                    <Route path="/about" element={<About />} />
                     <Route path="/discussion" element={<Discussion />} />
+                    <Route path="/about" element={<About />} />
                 </Routes>
             </Container>
         </>

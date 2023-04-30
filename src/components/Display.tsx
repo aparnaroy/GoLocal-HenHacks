@@ -152,27 +152,6 @@ export function DisplayBusinesses(): JSX.Element {
         }
     }
 
-    function displayBusiness(business: Business) {
-        if (window.location.href.endsWith("discussion")) {
-            return (
-                <div className="App">
-                    <br></br>
-                    <div className="App-header">Discussion</div>
-                    <br></br>
-                    <div>
-                        <h1 className="App-header3">Green bk Kitchen</h1>
-                        <img
-                            src={GreenBoxKitchen.image}
-                            alt="GoLocal Logo"
-                            height="400px"
-                        />
-                        {business.name}
-                    </div>
-                </div>
-            );
-        }
-    }
-
     return (
         <div>
             {displayForm()}

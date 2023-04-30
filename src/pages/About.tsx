@@ -1,5 +1,4 @@
 import React from "react";
-import Chatbot from "../components/Chatbot";
 
 export function About() {
     return (
@@ -46,7 +45,6 @@ export function About() {
             <br></br>
             <p>Sincerely,</p>
             <p>Aparna Roy, Emilie Barniak, and Samantha Glover</p>
-            <Chatbot />
         </div>
     );
 }
