@@ -88,15 +88,12 @@ export function DisplayBusinesses(): JSX.Element {
     const [sort, setSort] = useState<string>("");
     function updateSorting(event: React.ChangeEvent<HTMLSelectElement>) {
         setSort(event.target.value);
-        const sortedList = masterList.filter((item) =>
-            item.category.includes(sort)
-        );
-        setItems(sortedList);
     }
-    const sortedList = masterList.filter((item) =>
-        item.category.includes(sort)
-    );
-    const toPrint = displayBusinesses(sortedList);
+    let toPrint = displayBusinesses(items);
+    if (sort != "All") {
+        const sortedList = items.filter((item) => item.category.includes(sort));
+        toPrint = displayBusinesses(sortedList);
+    }
     function sortBusinesses() {
         if (window.location.href.endsWith("browse")) {
             return (
@@ -110,6 +107,7 @@ export function DisplayBusinesses(): JSX.Element {
                             fontSize: "25px"
                         }}
                     >
+                        <option>All</option>
                         <option>Restaurant</option>
                         <option>Arts and Entertainment</option>
                         <option>Health and Wellness</option>
