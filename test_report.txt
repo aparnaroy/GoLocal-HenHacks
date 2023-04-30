@@ -569,7 +569,7 @@ Browserslist: caniuse-lite is outdated. Please run:
       at HTMLUnknownElement.callCallback (node_modules/react-dom/cjs/react-dom.development.js:3945:14)
 
 FAIL src/App.test.tsx
-  ✕ renders the course name somewhere (281 ms)
+  ✕ renders the course name somewhere (308 ms)
 
   ● renders the course name somewhere
 
@@ -623,14 +623,15 @@ FAIL src/App.test.tsx
 -----------------------|---------|----------|---------|---------|-------------------
 File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 -----------------------|---------|----------|---------|---------|-------------------
-All files              |   25.47 |        0 |    4.87 |   26.47 |                   
+All files              |   23.93 |        0 |    4.65 |   24.77 |                   
  src                   |     100 |      100 |     100 |     100 |                   
   App.tsx              |     100 |      100 |     100 |     100 |                   
  src/Assets            |     100 |      100 |     100 |     100 |                   
   instances.ts         |     100 |      100 |     100 |     100 |                   
- src/components        |    5.66 |        0 |    4.34 |    5.88 |                   
+ src/components        |    6.25 |        0 |       4 |    6.45 |                   
   AddBusiness.tsx      |   11.11 |      100 |       0 |   11.76 | 34-105            
   AddForm.tsx          |       0 |      100 |       0 |       0 | 5-84              
+  Chatbot.tsx          |    9.09 |      100 |       0 |    9.09 | 4-17              
   Display.tsx          |       0 |        0 |       0 |       0 | 33-155            
   NavBar.tsx           |      50 |      100 |      50 |      50 | 71                
  src/hooks             |       0 |        0 |       0 |       0 |                   
@@ -640,10 +641,10 @@ All files              |   25.47 |        0 |    4.87 |   26.47 |
   AddBusiness.tsx      |       0 |      100 |       0 |       0 | 5                 
   Browse.tsx           |       0 |        0 |       0 |       0 | 5-16              
   Discussion.tsx       |       0 |      100 |       0 |       0 | 7-69              
-  Home.tsx             |       0 |      100 |       0 |       0 | 5                 
+  Home.tsx             |       0 |      100 |       0 |       0 | 6                 
 -----------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        3.968 s
+Time:        3.581 s
 Ran all test suites.
