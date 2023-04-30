@@ -1,5 +1,6 @@
 import React from "react";
 import GoLocal from "../Assets/logotransparent.png";
+import Chatbot from "../components/Chatbot";
 
 export function Home() {
     return (
@@ -27,6 +28,7 @@ export function Home() {
             </h1>
             <br></br>
             <br></br>
+            <Chatbot />
             <hr></hr>
         </div>
     );

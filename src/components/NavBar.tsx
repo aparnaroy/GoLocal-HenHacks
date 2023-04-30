@@ -42,16 +42,6 @@ export function NavBar() {
                         Add Business
                     </Nav.Link>
                     <Nav.Link
-                        to="/about"
-                        as={NavLink}
-                        style={{
-                            display: "flex",
-                            alignItems: "center"
-                        }}
-                    >
-                        About
-                    </Nav.Link>
-                    <Nav.Link
                         to="/discussion"
                         as={NavLink}
                         style={{
@@ -60,6 +50,16 @@ export function NavBar() {
                         }}
                     >
                         Discussion
+                    </Nav.Link>
+                    <Nav.Link
+                        to="/about"
+                        as={NavLink}
+                        style={{
+                            display: "flex",
+                            alignItems: "center"
+                        }}
+                    >
+                        About
                     </Nav.Link>
                 </Nav>
             </Container>
