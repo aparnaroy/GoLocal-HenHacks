@@ -126,6 +126,10 @@ body {
     }
 }
 
+.sort-by {
+    align-items: left;
+}
+
 .flex-container {
     display: flex;
     flex-direction: column;
