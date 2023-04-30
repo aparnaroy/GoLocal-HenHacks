@@ -26,6 +26,7 @@ import {
     MercuryCafe
 } from "../Assets/instances";
 import { Card, Col, Nav, Row } from "react-bootstrap";
+import { Discussion2 } from "../pages/Discussion2";
 
 export function useSessionStorage<T>(key: string, initialValue: T | (() => T)) {
     const [value, setValue] = useState<T>(() => {
@@ -73,6 +74,17 @@ export function DisplayBusinesses(): JSX.Element {
         MercuryCafe
     ]);
     setItems;
+
+    function showDiscussion(item: Business) {
+        if (window.location.href.endsWith("discussion") && item) {
+            return (
+                <div>
+                    <Discussion2 business={item}></Discussion2>
+                </div>
+            );
+        }
+    }
+
     return (
         <div className="flex-container">
             <Row sm={1} md={3}>
@@ -88,6 +100,7 @@ export function DisplayBusinesses(): JSX.Element {
                                     width="100px"
                                 ></Card.Img>
                                 <Card.Body>
+                                    {showDiscussion(item)}
                                     <Card.Title>
                                         <span>
                                             <Nav.Link href="#/discussion">
