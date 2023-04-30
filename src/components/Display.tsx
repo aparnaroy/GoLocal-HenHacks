@@ -82,7 +82,7 @@ export function SortingButton(): JSX.Element {
     return (
         <div>
             <div>
-                <span style={{ justifyContent: "left" }}>Sort By: </span>
+                <span style={{ justifyContent: "flex-start" }}>Sort By: </span>
             </div>
             <div>
                 <Form.Select
