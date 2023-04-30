@@ -1,4 +1,5 @@
 import React from "react";
+import Chatbot from "../components/Chatbot";
 
 export function About() {
     return (
@@ -13,6 +14,7 @@ export function About() {
             <br></br>
             <h2>What We Are</h2>
             <h4>blah</h4>
+            <Chatbot />
             <br></br>
         </div>
     );
