@@ -98,29 +98,31 @@ export function DisplayBusinesses(): JSX.Element {
     );
     const toPrint = displayBusinesses(sortedList);
     function sortBusinesses() {
-        return (
-            <div>
-                <Form.Select
-                    value={sort}
-                    onChange={updateSorting}
-                    style={{
-                        width: "350px",
-                        height: "70px",
-                        fontSize: "25px"
-                    }}
-                >
-                    <option>Restaurant</option>
-                    <option>Arts and Entertainment</option>
-                    <option>Health and Wellness</option>
-                    <option>Retail</option>
-                    <option>Creative Services</option>
-                    <option>Black Owned</option>
-                    <option>Women Owned</option>
-                    <option>LGBTQ+ Owned</option>
-                </Form.Select>
-                {toPrint}
-            </div>
-        );
+        if (window.location.href.endsWith("browse")) {
+            return (
+                <div>
+                    <Form.Select
+                        value={sort}
+                        onChange={updateSorting}
+                        style={{
+                            width: "350px",
+                            height: "70px",
+                            fontSize: "25px"
+                        }}
+                    >
+                        <option>Restaurant</option>
+                        <option>Arts and Entertainment</option>
+                        <option>Health and Wellness</option>
+                        <option>Retail</option>
+                        <option>Creative Services</option>
+                        <option>Black Owned</option>
+                        <option>Women Owned</option>
+                        <option>LGBTQ+ Owned</option>
+                    </Form.Select>
+                    {toPrint}
+                </div>
+            );
+        }
     }
     function displayBusinesses(itemList: Business[]) {
         if (window.location.href.endsWith("browse")) {
