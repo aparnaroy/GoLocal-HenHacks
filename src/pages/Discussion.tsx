@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { GreenBoxKitchen } from "../Assets/instances";
-import { useSessionStorage } from "../components/Display";
+import { useSessionStorage } from "../hooks/useSessionStorage";
 import { Button } from "react-bootstrap";
 
 export function Comments() {
@@ -29,17 +29,17 @@ export function Comments() {
     return (
         <div>
             <h2>Your thoughts on this local business:</h2>
-            <form onSubmit={handleSubmit} className="comments">
+            <form onSubmit={handleSubmit} className="comment-box">
                 <textarea
                     value={newComment}
                     onChange={(e) => setNewComment(e.target.value)}
                     placeholder="Add a comment..."
-                    rows={4} // set the number of rows to display
+                    rows={4}
                     style={{ width: "70%" }}
                 />
                 <br />
                 <Button type="submit" variant="info">
-                    Add
+                    Add Review
                 </Button>
             </form>
             <ul className="comments-ul">
