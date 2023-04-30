@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Multiselect } from "multiselect-react-dropdown";
 
 const initialValues = {
     business: "",
@@ -9,9 +10,20 @@ const initialValues = {
     image: ""
 };
 
+const data = [
+    { value: 1, label: "Restaurant" },
+    { value: 2, label: "Arts and Entertainment" },
+    { value: 3, label: "Health and Wellness" },
+    { value: 4, label: "Retail" },
+    { value: 5, label: "Creative Services" },
+    { value: 6, label: "Black Owned" },
+    { value: 7, label: "Women Owned" },
+    { value: 8, label: "LGBTQ+ Options" }
+];
+
 export default function FormAdd(): JSX.Element {
     const [values, setValues] = useState(initialValues);
-    const [selectedCategory, setCategory] = useState("");
+    //const [selectedCategory, setCategory] = useState([]);
 
     const handleInputChange = (event: {
         target: { name: string; value: string };
@@ -23,11 +35,7 @@ export default function FormAdd(): JSX.Element {
         });
     };
 
-    const handleOptionChange = (event: {
-        target: { value: React.SetStateAction<string> };
-    }) => {
-        setCategory(event.target.value);
-    };
+    const [optionList] = useState(data);
 
     return (
         <form>
@@ -54,13 +62,10 @@ export default function FormAdd(): JSX.Element {
             <div className="form">
                 <label>
                     Category:
-                    <select
-                        id="cat-dropdown"
-                        value={selectedCategory}
-                        onChange={handleOptionChange}
-                    >
-                        <option>Test</option>
-                    </select>
+                    <Multiselect
+                        options={optionList}
+                        displayValue="label"
+                    ></Multiselect>
                 </label>
             </div>
             <div className="form">
