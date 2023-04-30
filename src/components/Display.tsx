@@ -75,35 +75,39 @@ export function DisplayBusinesses(): JSX.Element {
     setItems;
 
     return (
-        <div className="flex-container">
-            <Row sm={1} md={3}>
-                {items.map((item) => {
-                    return (
-                        <Col key={item.name}>
-                            <Card key={item.name}>
-                                <Card.Img
-                                    variant="top"
-                                    src={item.image}
-                                    style={{ objectFit: "cover" }}
-                                    height="200px"
-                                    width="100px"
-                                ></Card.Img>
-                                <Card.Body>
-                                    <Card.Title>
-                                        <span>
-                                            <Nav.Link href="#/discussion">
-                                                {item.name}
-                                            </Nav.Link>
-                                        </span>
-                                    </Card.Title>
-                                    <span>{item.description}</span>
-                                </Card.Body>
-                            </Card>
-                            <br></br>
-                        </Col>
-                    );
-                })}
-            </Row>
+        <div>
+            <div className="flex-container">
+                <Row sm={1} md={3}>
+                    {items.map((item) => {
+                        return (
+                            <Col key={item.name}>
+                                <Card key={item.name}>
+                                    <Card.Img
+                                        variant="top"
+                                        src={item.image}
+                                        style={{ objectFit: "cover" }}
+                                        height="200px"
+                                        width="100px"
+                                    ></Card.Img>
+                                    <Card.Body>
+                                        <Card.Title>
+                                            <span>
+                                                <Nav.Link href="#/discussion">
+                                                    {item.name}
+                                                </Nav.Link>
+                                            </span>
+                                        </Card.Title>
+                                        <span>{item.description}</span>
+                                    </Card.Body>
+                                </Card>
+                                <br></br>
+                            </Col>
+                        );
+                    })}
+                </Row>
+            </div>
+            <br></br>
+            <hr></hr>
         </div>
     );
 }

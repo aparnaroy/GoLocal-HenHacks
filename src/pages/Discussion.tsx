@@ -1,16 +1,29 @@
 import React, { useState } from "react";
 import { GreenBoxKitchen } from "../Assets/instances";
 import { useSessionStorage } from "../components/Display";
-import { Button, Card } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 
 export function Comments() {
-    const [comments, setComments] = useSessionStorage<string[]>("comments", []);
+    const [comments, setComments] = useSessionStorage<string[]>("comments", [
+        "The food is the best I've ever had! I love their aesthetic and theme!",
+        "I wish I could eat here every day, I eat sleep and breathe Green Box Kitchen",
+        "Get ready to find a new favorite. Every time I try something new here, I'm blown away by how good it is and wish I had tried it earlier",
+        "The people who work here are always so sweet and friendly! I sometimes come here just to de-stress, and the employees always make me feel right at home."
+    ]);
     const [newComment, setNewComment] = useState<string>("");
 
     function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
         e.preventDefault();
         setComments([...comments, newComment]);
         setNewComment("");
+    }
+
+    function handleDeleteComment(index: number) {
+        setComments(comments.filter((comment, i) => i !== index));
+    }
+
+    function getCommentDate(index: number): string {
+        return new Date(Date.now() + index * 3600000).toLocaleString();
     }
 
     return (
@@ -30,15 +43,23 @@ export function Comments() {
                 </Button>
             </form>
             <ul className="comments-ul">
-                {comments.map((comment, index) => (
-                    <li className="comments-li" key={index}>
-                        <div className="author">{`Review ${index + 1}`}</div>
-                        <div>{comment}</div>
-                        <div className="date">
-                            {new Date().toLocaleString()}
-                        </div>
-                    </li>
-                ))}
+                {comments.map((comment, index) => {
+                    return (
+                        <li className="comments-li" key={index}>
+                            <div className="author">{`Review ${
+                                index + 1
+                            }`}</div>
+                            <div>{comment}</div>
+                            <div className="date">{getCommentDate(index)}</div>
+                            <Button
+                                variant="danger"
+                                onClick={() => handleDeleteComment(index)}
+                            >
+                                Delete
+                            </Button>{" "}
+                        </li>
+                    );
+                })}
             </ul>
         </div>
     );
@@ -57,7 +78,8 @@ export function Discussion() {
                     alt="GoLocal Logo"
                     height="400px"
                 />
-                <div className="comments">Hi</div>
+                <br></br>
+                <br></br>
                 <Comments />
             </div>
             <br></br>
