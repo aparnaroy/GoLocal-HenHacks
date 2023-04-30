@@ -3,6 +3,8 @@ import { Business } from "../Assets/instances";
 import { Button } from "react-bootstrap";
 import { useSessionStorage } from "../hooks/useSessionStorage";
 import { Multiselect } from "multiselect-react-dropdown";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const initialValues = {
     business: "",
@@ -66,6 +68,8 @@ export function AddBusinessForm({
         });
     };
 
+    const notify = () => toast("Business added sucessfully to Browse!");
+
     const optionList = data;
 
     return (
@@ -104,12 +108,6 @@ export function AddBusinessForm({
                         onSelect={handleCategoryChange}
                         onRemove={handleCategoryChange}
                     ></Multiselect>
-                    <input
-                        type="text"
-                        name="category"
-                        value={business.category}
-                        onChange={handleChange}
-                    />
                 </label>
             </div>
             <div>
@@ -146,9 +144,10 @@ export function AddBusinessForm({
                 </label>
             </div>
             <br></br>
-            <Button type="submit" variant="info">
+            <Button type="submit" variant="info" onClick={notify}>
                 Add Business
             </Button>
+            <ToastContainer></ToastContainer>
         </form>
     );
 }
