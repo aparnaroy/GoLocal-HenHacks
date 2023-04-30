@@ -51,6 +51,16 @@ export function NavBar() {
                     >
                         About
                     </Nav.Link>
+                    <Nav.Link
+                        to="/discussion"
+                        as={NavLink}
+                        style={{
+                            display: "flex",
+                            alignItems: "center"
+                        }}
+                    >
+                        Discussion
+                    </Nav.Link>
                 </Nav>
             </Container>
         </NavbarBs>
