@@ -30,31 +30,6 @@ import { useSessionStorage } from "../hooks/useSessionStorage";
 import { AddBusinessForm } from "./AddBusiness";
 
 export function DisplayBusinesses(): JSX.Element {
-    const masterList: Business[] = [
-        TerraCafeGrill,
-        GreenBoxKitchen,
-        Evangelinas,
-        ArtzScape,
-        SqueezeBox,
-        StudioOnMarket,
-        PureYoga,
-        MedSpa,
-        HeavenAndHealth,
-        CoralCove,
-        Bloom,
-        GinghamGrace,
-        KingCreative,
-        LCPhotography,
-        SHCreativeStudio,
-        PopInPops,
-        WaltsChicken,
-        BooksAndBagels,
-        BrewHaha,
-        IgniteFitness,
-        Heirloom,
-        GreenbankAndPhilips,
-        MercuryCafe
-    ];
     const [items, setItems] = useSessionStorage<Business[]>("all-items", [
         TerraCafeGrill,
         GreenBoxKitchen,
