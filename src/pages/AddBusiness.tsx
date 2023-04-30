@@ -1,5 +1,5 @@
 import React from "react";
-import FormAdd from "../components/AddForm";
+import { Browse } from "./Browse";
 
 export function AddBusiness() {
     return (
@@ -8,7 +8,7 @@ export function AddBusiness() {
             <div className="App-header">Add Your Business</div>
             <br></br>
             <h3>Are you a Local Business Owner? Add Your Business Here!</h3>
-            <FormAdd></FormAdd>
+            <Browse />
         </div>
     );
 }
